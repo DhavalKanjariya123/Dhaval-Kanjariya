@@ -1,0 +1,19 @@
+body 
+{
+    background-color: aqua;
+}
+h2 
+{
+    color: red;
+    font-size: 35px;
+}
+a 
+{
+    color: red;
+    text-decoration: none;
+    list-style-type: none;
+}
+a:hover 
+{
+    text-decoration: underline;
+}
