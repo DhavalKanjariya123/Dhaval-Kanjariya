@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px 0px 0px 0px;
+            background-color: rgb(226, 212, 212);
+
+        }
+
+        .section1 {
+            margin: auto;
+            background-color: white;
+
+            height: 100vh;
+            width: 80%;
+        }
+
+        .wid {
+            width: 80%;
+            height: 100%;
+            margin: auto;
+            /* background-color: aqua; */
+        }
+
+        .col {
+            color: black;
+            padding: 60px 0px 0px 0px;
+            font-size: 35px;
+        }
+
+        .divider {
+            width: 140px;
+            height: 5px;
+            background: #e12454;
+            margin: -20px 0px 70px 60px;
+        }
+
+        .col1 {
+            background-color: rgb(226, 226, 231);
+            height: 8%;
+            width: 45%;
+            border: none;
+            u
+        }
+
+        .col1a {
+            background-color: rgb(226, 226, 231);
+            height: 8%;
+            width: 45%;
+            float: right;
+            /* margin: 10px 0px 0px 0px; */
+            border: none;
+        }
+
+        #col1 {
+            background-color: rgb(226, 226, 231);
+            height: 20%;
+            width: 99.5%;
+            /* margin: 10px 23px 0px 10px; */
+            border: none;
+        }
+
+        #col2 {
+            background-color: rgb(30, 30, 190);
+            color: white;
+            height: 6%;
+            width: 18%;
+            border-radius: 15px;
+            border: none;
+            font-size: 15px;
+            margin: 4% 0% 0% 40%;
+            font-weight: 700;
+        }
+
+        .section2 {
+            margin: 3% 0% 0% 8%;
+            background-color: white;
+            height: 50vh;
+            width: 40%;
+            float: left;
+        }
+
+        .condet {
+
+            padding: 15px 0px 0px 15px;
+        }
+
+        .h2hed {
+            padding: 0px 0px 0px 17px;
+
+
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        h2 {
+            color: #672108
+        }
+
+        .section3 {
+            margin: 3% 0% 0% 8%;
+            background-color: white;
+            height: 22vh;
+            width: 40%;
+            float: left;
+        }
+
+        .h2soc {
+            margin: 0% 0% 0% 8%;
+            float: left;
+            color: black;
+            font-size: 40px;
+            transition: 1s ease-out;
+            transform: rotate(360deg);
+        }
+
+        .fa-facebook:hover {
+            transition: 0.2s ease-out;
+            transform: rotate(360deg);
+            color: #e12454;
+        }
+
+        .fa-youtube:hover {
+            transition: 0.2s ease-out;
+            transform: rotate(360deg);
+            color: #e12454;
+        }
+
+        .fa-instagram:hover {
+            transition: 0.2s ease-out;
+            transform: rotate(360deg);
+            color: #e12454;
+        }
+
+        .section4 {
+            margin: 2% 0% 0% 8%;
+            background-color: white;
+            height: 24vh;
+            width: 40%;
+            float: left;
+            /* font-size: 50px; */
+        }
+
+        .section5 {
+            margin: 3% 0% 0% 0%;
+            background-color: rgb(153, 51, 0);
+            height: 450px;
+            width: 100vw;
+            float: left;
+
+        }
+
+        .h2FOT {
+            color: white;
+            margin: 70px 0px 0px 700px;
+        }
+
+        #direction {
+            margin-top: 50px;
+            width: 100vw;
+            height: 400px;
+        }
+
+        #footer {
+            margin-left: 50px;
+
+
+        }
+
+        
+
+        #hor_line {
+            height: 1px;
+            width: 400px;
+            border: none;
+            padding: 0;
+            background: #e5e5e5;
+            margin-bottom: 22px;
+            margin-left: 704px;
+        }
+
+        .footer_treatment {
+            color: white;
+            margin-left: 105px;
+            line-height: 40px;
+            font-size: 20px;
+            float: left;
+        }
+        .footer_flex{
+            display: flex;
+            margin-left: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section1">
+
+        <form method="post" action="mail.php" class="wid">
+            <h1 class="col"> GET IN TOUCH </h1>
+            <div class="divider"></div>
+            <input class="col1" type="text" name="name" placeholder="Your Full Name" required>
+            <input class="col1a" type="Email" name="email" placeholder="Your Email Address" required> <br> <br>
+            <input class="col1" type="Contact" name="mobile" placeholder="Your Phone Number" required>
+            <input class="col1a" class="col1" type="City" name="city" placeholder="City" required> <br> <br>
+            <input class="col1" type="State" name="state" placeholder="State" required>
+            <input class="col1a" type="Country" name="country" placeholder="Country" required> <br> <br>
+            <textarea id="col1" name="message" id="" cols="100" rows="10" placeholder="Your Message" required></textarea> <br>
+            <input id="col2" type="submit" name="sub" value="SEND MESSAGE">
+        </form>
+    </section> 
+    <section class="section2">
+        <h3 class="condet"> CONTACT &nbsp DETAILS </h3>
+        <hr style="width: 93%; padding: 0px;">
+
+        <h2 class="h2hed"><span class="fa fa-address-card"> </span>&nbsp NIRJARA AYURVEDA CLINIC</h2>
+        <p style="padding-left: 55px;">201, near gautry road, Vadodara-362015</p>
+
+        <h2 class="h2hed"><span class="fa fa-phone"> &nbsp +91 98252 66729 </span></h2>
+
+        <h2 class="h2hed"><span class="fa fa-envelope">&nbsp dhavalhk3091@gmail.com </span></h2>
+    </section>
+
+    <section class="section3">
+        <h3 class="condet"> SOCIALS </h3>
+        <hr style="width: 93%; padding: 0px;">
+        <h2 class="h2soc"><span class="fa fa-facebook"> </span></h2>
+        <h2 class="h2soc"><span class="fa fa-youtube"> </span></h2>
+        <h2 class="h2soc"><span class="fa fa-instagram"> </span></h2>
+    </section>
+    <section class="section4">
+        <h3 class="condet"> OPENING &nbsp HOURS </h3>
+        <hr style="width: 93%; padding: 0px;">
+        <SPan class="h2hed">Mon-Sat &nbsp : 10:00am-1:00pm</SPan> <br>
+        <SPan class="h2hed" style="margin-left: 68px;"> : 4:00pm-7:00pm</SPan> <br>
+        <SPan class="h2hed">Sunday &nbsp &nbsp : off</SPan> <br>
+    </section>
+
+    <iframe id="direction"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.984246252937!2d73.13537281442943!3d22.316435547949634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc93745a04491%3A0x7354e74771e45f6a!2sNirjara%20ayurveda%20%2Cagnikarma%20n%20panchkarma%20center!5e0!3m2!1sen!2sin!4v1671000528631!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <section class="section5">
+
+        <div id="footer">
+            <h2 class="h2FOT"><span></span>TREATMENTS</h2>
+            <hr id="hor_line">
+            <div class="footer_flex">
+                <div class="footer_treatment">
+                    <li>Kati Basti</li>
+                    <li>Kashayaseka</li>
+                    <li>Mukhyabhyanga</li>
+                    <li>Padabhyanga</li>
+                    <li>Janu Basti</li>
+                    <li>Chakra Basti</li>
+                </div>
+                <div class="footer_treatment">
+                    <li>Kati Basti</li>
+                    <li>Kashayaseka</li>
+                    <li>Mukhyabhyanga</li>
+                    <li>Padabhyanga</li>
+                    <li>Janu Basti</li>
+                    <li>Chakra Basti</li>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
