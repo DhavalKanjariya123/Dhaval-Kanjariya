@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    box-sizing: border-box;
+    background-color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    margin-left: 15px;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+
+.impact-header {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: #008375;
+    display: flex;
+    flex-direction: row;
+}
+
+.impact-logo {
+    width: 20%;
+    height: auto;
+    color: white;
+    margin-left: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.impact-navbar {
+    width: 80%;
+    height: auto;
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.impact-herosection {
+    background-color: #008375;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.impact-text {
+    width: 50%;
+    height: auto;
+    color: white;
+    padding-top: 130px;
+    padding-left: 90px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.btn {
+    background-color: #008375;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 0 0 2px 2px;
+    font-size: 20px;
+}
+
+.fa-play-circle-o {
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+
+}
+
+.impact-slider{
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    margin-left: 190px;
+    margin-top: 50px;
+}
+.impact-boxsection{
+    background-color: #008375;
+    width: 100%;
+    height: 140px;
+    /* display: flex; */
+    margin-bottom: 150px;
+    
+    
+
+}
+.boxsection1{
+    background-color: #008d7d;
+    width: 20%;
+    height: 200px;
+    margin: 10px;
+    margin-left: 48px;
+    margin-top: 30px;
+    float: left;
+    margin-bottom: 50px;
+    
+    
+}
+.fa-tv, .fa-diamond, .fa-map-marker, .fa-location-arrow{
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+p{
+    color: white;
+    margin-left: 0px;
+    font-size: 20px;
+    font-weight: 600; 
+    text-align: center;
+}
+.video{
+    width: 30%;
+    height: 260px;
+    display: none;
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+    margin-left: 800px;
+    z-index: 5 !important;
+}
+.teams{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.teams h2{
+    color: #008d7d;
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 0;
+   
+}
+.teams hr{
+    color: #008d7d;
+    width: 15%;
+    height: auto;
+    border: 2px solid #008d7d ;
+    
+}
+.teams1{
+    width: 20%;
+    height:350px;
+    background-color: #008375;
+    margin-left: 105px;
+    margin-right: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+   
+    
+}
+.teams1-img{
+    float: left;
+}
+
+.teams1 img{
+    width: 100%;
+    height: auto;
+    
+}
+.teams1-text{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    
+}
+.teams1-text p{
+    width: 100%;
+    height: 100px;
+    color: white;
+    overflow: auto;
+    text-align: justify;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.services{
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+.services h2{
+    color: #008d7d;
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 0;
+    margin: 0;
+    
+   
+}
+.services hr{
+    color: #008d7d;
+    width: 15%;
+    height: auto;
+    border: 2px solid #008d7d ;
+}
+.services-img{
+    width: 40%;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 30px;
+   float: left;
+    /* background-color: yellow; */
+    
+}
+.services-img img{
+    width: 100%;
+    height: auto;
+}
+.services-text{
+    width: 45%;
+    height: auto;
+    /* background-color: aqua; */
+    float: right;
+    margin-top: 30px;
+    
+    
+}
+
+.services-text h3{
+   margin-top: 30px;
+    font-size: 30px;
+    margin-left: 0;
+    color: black;
+    margin-left: 20px;
+    
+}
+.services-text li{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.services-text ul{
+    margin-bottom: 45px;
+}
+
+
+
+
+
+
+
+
+.services1{
+    margin: 0;
+    padding: 0;
+    
+}
+.services-text1{
+    width: 45%;
+    height: auto;
+    /* background-color: aqua; */
+    float: left;
+    margin-top: 30px;
+    
+}
+
+.services-text1 h3{
+  margin-top: 30px;
+    font-size: 30px;
+    margin-left: 0;
+    color: black;
+    margin-left: 160px;
+}
+.services-text1 li{
+    margin-left: 170px;
+    font-size: 20px;
+    
+
+}
+.services-img1{
+    width: 40%;
+    height: auto;
+    /* margin-left: 30px; */
+    margin-right: 100px;
+    margin-top: 30px;
+   float: right;
+    /* background-color: yellow; */
+    
+}
+.services-img1 img{
+    width: 100%;
+    height: auto;
+}
