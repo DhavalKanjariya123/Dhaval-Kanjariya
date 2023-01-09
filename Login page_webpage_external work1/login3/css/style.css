@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f5f4;
+    overflow-x: ;
+    overflow-y: ;
+}
+
+.maindiv {
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+}
+
+.div1 {
+    width: 35%;
+    height: 537px;
+    background-color: #3eb599;
+}
+
+.div2 {
+    width: 65%;
+    height: 537px;
+    background-color: #ffffff;
+}
+
+img {}
+
+.logo-text {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+.logo{
+    width: 15%;
+    height: auto;
+    padding: 5px;
+    background-color: #3eb599;
+}
+
+.logo img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.text {
+    width: 80%;
+    height: auto;
+    margin-top: 20px; 
+    margin-left: 5px;
+}
+.heading-div1 {
+    margin-top: 180px;
+    margin-left: 65px;
+    color: white;
+    font-size: 45px;
+}
+.para-div1{
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+}
+.btn1{
+    background-color: #3eb599;
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 40%;
+    height: 50px;
+    margin-top: 20px;
+    font-weight: 200;
+}
+.heading-div2{
+    color: #3eb599;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size: 45px;
+}
+.span-text{
+    font-size: 16px;
+}
+.form{
+    width: 70%;
+    height: auto;
+    /* background-color: aqua; */
+    color: black;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.form-icon{
+    width: 10%;
+    height: 40px;
+    /* background-color: red; */
+    background-color: #f5f9f8;
+    font-size: 25px;
+}
+.form-input{
+    width: 80%;
+    height: 40px;
+    /* background-color: yellow; */
+}
+.form-input input{
+    height: 38px;
+    width: 100%;
+    border: none;
+    background-color: #f5f9f8;
+}
+.fa-user{
+    color: black;
+    font-size: 100px;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.fa-envelope{
+    color: black;
+    font-size: 100px;
+    font-size: 50px;
+    margin-top: 7px;
+}
+.fa-lock{
+    color: black;
+    font-size: 100px;
+    font-size: 50px;
+    margin-top: 7px;
+}
+svg{
+    /* background-color: #3eb599; */
+}

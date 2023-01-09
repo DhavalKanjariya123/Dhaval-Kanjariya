@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: -webkit-gradient(left, #ffffff 60%, #39b39a 40%);
+            background: linear-gradient(to right, #ffffff 60%, #39b39a 40%);
+        }
+
+        #div1 {
+            width: 60%;
+            float: left;
+            margin-top: 30px;
+        }
+
+        #div1 h1 {
+            font-size: 65px;
+            margin: 100px 0 0 90px;
+        }
+
+        #div1 span {
+            margin-left: 250px;
+            font-size: 25px;
+            margin-bottom: 0px;
+            letter-spacing: 1px;
+        }
+
+
+
+        #social1 {
+            margin: 10px 0 0 275px;
+            /* background-color: aqua; */
+        }
+
+        fieldset {
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+            align-items: center;
+            text-align: center;
+            width: 52%;
+            margin-left: 185px;
+        }
+
+        input {
+            background-color: #ecf5f2;
+            margin: 0 0 0 185px;
+            border: none;
+            width: 55%;
+            height: 50px;
+            border-radius: 20px;
+        }
+
+        ::placeholder {
+            padding-left: 10px;
+            font-size: 16px;
+        }
+
+        #btn1 {
+            color: white;
+            background-color: #28b499;
+            width: 30%;
+            height: 50px;
+            border: none;
+            border-radius: 40px;
+            margin: 40px 0 0 290px;
+            font-size: 15px;
+        }
+
+        .div2 {
+            width: 35%;
+            float: right;
+        }
+
+        .div2 h1 {
+            color: white;
+            font-size: 60px;
+            margin: 230px 0 10px 85px;
+        }
+
+        .div2 span {
+            color: white;
+            margin-left: 74px;
+
+            font-size: 25px;
+            letter-spacing: 1px;
+            line-height: 33px;
+        }
+
+        #btn2 {
+            color: black;
+            background-color: white;
+            width: 45%;
+            height: 50px;
+            border: none;
+            border-radius: 40px;
+            margin: 40px 0 0 125px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+
+        <h1>Login to Your Account</h1>
+        <span>Login using social networks</span>
+
+
+
+        <svg id="social1" height="80" width="350">
+            <circle cx="50" cy="35" r="25" fill="#45556f" />
+            <text style="font-size: 30px;" x="43" y="43" fill="white" stroke="white" stroke-width="1px"> f
+            </text>
+
+            <circle cx="140" cy="35" r="25" fill="#df4c3a" />
+            <text style="font-size: 20px;" x="128" y="42" fill="white" stroke="white" stroke-width="1px"> G+
+            </text>
+
+            <circle cx="230" cy="35" r="25" fill="#45556f" />
+            <text style="font-size: 25px; letter-spacing:3px " x="219" y="42" fill="white" stroke="white"
+                stroke-width="1px"> in
+            </text> <br>
+
+
+            <fieldset style="border:">
+                <legend>OR</legend>
+            </fieldset>
+
+            <input type="text" placeholder="Email"> <br> <br>
+            <input type="text" placeholder="Password"> <br>
+
+            <button id="btn1">Sign In</button>
+    </div>
+    <div class="div2">
+        <h1>New Here?</h1>
+        <span>Sign up and discover a great</span>
+        <span>amount of new oppotunities!</span>
+        <button id="btn2">Sign Up</button>
+    </div>
+
+
+
+
+</body>
+
+</html>
