@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src='https://code.jquery.com/jquery-3.6.2.min.js'></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+</head>
+
+<body>
+    <div class="body1">
+        <header class="commerce-header">
+            <div class="commerce-header-phone-mo">
+                <b class="fa fas fa-phone"></b>
+                <span class="commerce-header-mo-no">(+91) 9825166515</span>
+                <input id="search" type="text" placeholder="Search your products">
+                <b class="fa fab fab fab fa-facebook "></b> <b class="fa fa-instagram"></b> <b
+                    class="fa fa-twitter "></b>
+                <b class="fa fa-google"></b> <b class="fa fa-telegram"></b>
+                <a href="">Cart</a>
+                <b class="fa fa-cart-plus"></b>
+            </div>
+        </header>
+        <nav class="commerce-navbar">
+            <div class="navbar-logo-name">
+                <span class="fa fa-shopping-basket "></span> <span class="navbar-name">Dhaval Commerce</span>
+            </div>
+            <div class="navbar-list">
+                <a href="">Home</a>
+                <a href="">Men's Products</a>
+                <a href="">Women's Products</a>
+                <a href="">Kid's Products</a>
+                <a href="">Offers</a>
+                <span class="dropdown" href=""> <a href="">Account</a> 
+                    <span class="fa fa-caret-down"></span>
+                    <ul class="dropdown-menu">
+
+                        <li> <a href="#" id="login" class="login1">Login</a> </li>
+                        <hr>
+                        <li> <a href="#">Logout</a> </li>
+
+                    </ul>
+                </span>
+                <a href="contact_us.html">Contact Us</a>
+            </div>
+        </nav>
+
+    <section class="cart">
+        <div class="cart-heading">
+            <h2>Cart<b class="fa fa-cart-plus"></b></h2>
+
+        </div>
+        <div class="cart-detail">
+            <center>
+                <table border="1" cellspacing="0px" cellpadding="0px">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Product Name</th>
+                            <th>Qty</th>
+                            <th>Price</th>
+                            <th>Subtotal</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr align="center">
+                           
+                                <td id="product-img"><img src="images/product/electric/ele_1.webp" alt=""></td>
+                                <td id="product-name">Watch - For Men</td>
+                                <td id="product-qty"></td>
+                                <td id="product-price">16999</td>
+                                <td id="product-subtotal">00</td>
+                                <td><b class="fa fa-trash fa-2x"></b></td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+        </div>
+        <div class="product-total-detail">
+            <h1 id="product-total">TOTAL R.S. <input type="text" placeholder="15000/-"></h1>
+            <a href="checkout.html"><h2 align="center" id="product-total-checkout">Go for Checkout > ></h2> </a>
+        </div>
+    </section>
+    
+    <footer class="commerce-footer">
+        <div class="commerce-footer-div">
+            <h3>Get to know Us</h3>
+            <span>About Us</span> <br>
+            <span>Careers</span> <br>
+            <span>Press Releases</span> <br>
+            <span>About Company</span> <br>
+            <span>Offers</span>
+        </div>
+        <div class="commerce-footer-div">
+            <h3>Contact Us</h3>
+            <span>Facebook</span> <br>
+            <span>Twitter</span> <br>
+            <span>Instagram</span> <br>
+            <span>Telegram</span> <br>
+            <span>Email</span>
+        </div>
+        <div class="commerce-footer-div">
+            <h3>Our Brands</h3>
+            <span>Electronics</span> <br>
+            <span>Men's Products</span> <br>
+            <span>Kid's Products</span> <br>
+            <span>Women's Products</span> <br>
+            <span>Others</span>
+        </div>
+        <div class="commerce-footer-div-address">
+            <h3>Office Address</h3>
+            <address>1023, Nijanand, <br> Near Amba school, Sec. 4, <br> Ahmedabad <br> Hours:Open. Closes: 8PM
+            </address>
+        </div>
+        <hr>
+        <p>copyright@2022-2023 All right reserved company</p>
+
+    </footer>
+<script src="javascript/javascript_cart.js"></script>
+</body>
+
+</html>

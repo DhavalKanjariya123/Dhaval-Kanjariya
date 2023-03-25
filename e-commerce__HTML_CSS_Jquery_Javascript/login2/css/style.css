@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    background: -webkit-gradient(right, #fdfdfd 65%, #b4bcca 35%);
+    background: linear-gradient(to left, #fdfdfd 65%, #b4bcca 35%);
+}
+#maindiv {
+    margin: 50px 100px 50px 100px;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 255, 0.08);
+    display: flex;
+}
+.div1 {
+    background-color: #2874f0;
+    width: 35.5%;
+    height: 550px;
+}
+.div1 img{
+    width: auto;
+    height: auto;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.div2 {
+    background-color: #ffffff;
+    width: 74%;
+    height: 400px;
+}
+.fa-facebook{
+    color: red;
+    font-size: 30px;
+}
+h1{
+    margin: 0;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 80px;
+    font-size: 40px;
+    color: white;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    color: white;
+}
+.user-data{
+    margin-top: 130px;
+}
+.company-input{
+    margin-left: 190px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #2874f0;
+}
+::placeholder{
+    padding-left: 10px;
+    font-size: 17px;
+}
+a{
+    margin-left: 5px;
+    color: #2874f0;
+    font-weight: bold;
+}
+.btn{
+    background-color: #2874f0;
+    color: white;
+    padding: 2px;
+    margin-left: 192px;
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.div2 span{
+    margin-left: 191px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.div2 a{
+    font-weight: bold;
+    font-size: 15px;
+}
