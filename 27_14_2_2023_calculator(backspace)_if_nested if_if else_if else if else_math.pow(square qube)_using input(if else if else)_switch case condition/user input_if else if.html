@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn {
+            width: 10%;
+            height: auto;
+            padding: 5px;
+            background-color: aqua;
+            color: black !important;
+
+        }
+    </style>
+    <script>
+        function test() {
+            let n1 = parseInt(document.getElementById("A").value);
+            let n2 = parseInt(document.getElementById("B").value);
+            let n3 = parseInt(document.getElementById("C").value);
+
+            if (n1 > n2 && n1 > n3) {
+                document.getElementById("result").innerHTML = "A is big number";
+            }
+            else if (n2 > n1 && n2 > n3) {
+                document.getElementById("result").innerHTML = "B is big number";
+            }
+            else if (n3 > n1 && n3 > n2) {
+                document.getElementById("result").innerHTML = "C is big number";
+            }
+            else {
+                document.getElementById("result").innerHTML = "something wrong";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <center>
+        <label for="">Enter number A:</label>
+        <input id="A" type="text"> <br> <br>
+        <label for="">Enter number B:</label>
+        <input id="B" type="text"> <br> <br>
+        <label for="">Enter number C:</label>
+        <input id="C" type="text"> <br> <br>
+        <button id="btn" type="button" onclick="test()">Click Here</button>
+        <p id="result"></p>
+    </center>
+</body>
+
+</html>

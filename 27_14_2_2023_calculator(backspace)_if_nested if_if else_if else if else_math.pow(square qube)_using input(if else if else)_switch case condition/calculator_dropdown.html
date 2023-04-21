@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function test() {
+            let sel = document.getElementById("select").value;
+            let n1 = parseInt(document.getElementById("A").value);
+            let n2 = parseInt(document.getElementById("B").value);
+
+            if (sel == 1) {
+                let n3 = n1 + n2;
+                document.getElementById("result").innerHTML = "Addition of two number is:" + n3;
+            }
+            else if (sel == 2) {
+                let n3 = n1 - n2;
+                document.getElementById("result").innerHTML = "Substraction of two number is:" + n3;
+            }
+            else if (sel == 3) {
+                let n3 = n1 * n2;
+                document.getElementById("result").innerHTML = "Multipication of two number is:" + n3;
+            }
+            else {
+                document.getElementById("result").innerHTML = "select correct operation!";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <center>
+        <label for="">Select the operation:</label>
+        <select name="" name="sel" id="select" >
+            <option value="">Select number</option>
+            <option value="1">Addition</option>
+            <option value="2">Substraction</option>
+            <option value="3">Multipication</option>
+        </select> <br> <br>
+
+        <label for="">Enter number A:</label>
+        <input id="A" type="text"> <br> <br>
+        <label for="">Enter number B:</label>
+        <input id="B" type="text"> <br> <br>
+        <Button type="button" onclick="test()" >Calculate</Button>
+        <p id="result"></p>
+    </center>
+</body>
+
+</html>

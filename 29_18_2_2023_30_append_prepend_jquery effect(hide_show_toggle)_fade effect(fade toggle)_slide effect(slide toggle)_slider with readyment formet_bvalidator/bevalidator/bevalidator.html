@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/gray.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+
+    <script src="js/jquery.bvalidator.min.js"></script>
+    <script src="js/default.min.js"></script>
+    <script src="js/gray.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#frm").bValidator()
+        })
+    </script>
+    <style>
+        #frm{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <form action="welcome.html" id="frm">
+            <input type="text" placeholder="Full name" data-bvalidator="required,alpha"> <br> <br> <br> <br>
+
+            <input type="text" placeholder="Password" data-bvalidator="required, minlen[10],maxlen[15x],digit" data-bvalidator="required, digit"> <br> <br> <br>
+
+            <input type="text" placeholder="Mobile Number" data-bvalidator="required,min[200],max[600] rangelen"> <br> <br> <br>
+
+            <input type="submit" value="Submit">
+            <!-- <button type="button" id="btn" >Register</button> -->
+        </form>
+    </center>
+
+</body>
+
+</html>
