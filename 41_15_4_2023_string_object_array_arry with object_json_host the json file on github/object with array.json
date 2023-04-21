@@ -1,0 +1,22 @@
+{
+    "list": [
+        {
+            "id": 1001,
+            "name": "Dhaval"
+        },
+        {
+            "id": 1002,
+            "name": "Gaurang"
+        }
+    ],
+    "listdetail": [
+        {
+            "id": 1001,
+            "name": "Dhaval"
+        },
+        {
+            "id": 1002,
+            "name": "Gaurang"
+        }
+    ]
+}

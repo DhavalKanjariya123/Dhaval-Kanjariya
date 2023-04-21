@@ -1,0 +1,11 @@
+<p id="demo"></p>
+<script>
+    "use strict"
+    try {
+        a = 10;
+        console.log(a);
+        // var a;
+    } catch (error) {
+        document.getElementById("demo").innerHTML = error.message;
+    }
+</script>
