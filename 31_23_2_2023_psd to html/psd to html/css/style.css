@@ -1,0 +1,192 @@
+
+/* @font-face {
+    font-family: inter;
+    src: url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@800&family=Secular+One&display=swap');
+} */
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@800&family=Secular+One&display=swap');
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@800&family=Libre+Baskerville&family=Secular+One&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.tour-header {
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    /* background-color: aqua; */
+}
+
+.company {
+    color: gray;
+    margin-left: 90px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.list ul {
+    margin-left: 180px;
+    list-style-type: none;
+    /* background-color: aqua; */
+
+}
+
+.list ul a {
+    padding: 0%;
+    padding-left: 1%;
+    color: gray;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.navbar-brand {
+    margin-left: 100px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.name1 {
+    color: blue;
+}
+
+.name2 {
+    color: black;
+}
+
+.navbar-tab-all ul {
+    margin-left: 485px;
+}
+
+.navbar-tab-all ul li a {
+
+    text-decoration: none;
+    padding-left: 30px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+}
+.slider{
+    width: 100%;
+    height: 545px !important;
+    /* background-image: url(../images/Layer\ 2.png) ; */
+    background: url(../images/Layer\ 2.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: contrast(110%);
+}
+
+
+.slider-text{
+    /* background-color: aqua; */
+    color: #ffffff !important;
+    font-size: 30px;
+    font-weight: 1;
+    padding-left: 22%;
+    font-family: 'Libre Baskerville', serif;
+}
+.slider h2{
+
+    padding-left: 22%;
+    padding-top: 11%;
+    font-size: 40px;
+    color: white !important;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px;
+    font-family: 'Secular One', sans-serif;
+  
+}
+.slider h1{
+    padding-left: 22%;
+    font-size: 50px;
+    color: white !important;
+    font-weight: bold;
+    position: relative;
+    top: 0px !important;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Secular One', sans-serif;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    span,
+    b,
+    ul,
+    li,
+    a {
+        margin: 0;
+        padding: 0;
+    }
+
+    .tour-header {
+        width: 100%;
+        height: 70px;
+        background-color: #ffffff;
+        /* background-color: aqua; */
+    }
+
+    .company {
+        margin-left: 70px;
+        padding-bottom: 0px !important;
+    }
+
+    .list ul {
+        font-size: 13px !important;
+        margin-left: 0px !important;
+        /* list-style-type: none; */
+        /* background-color: aqua; */
+
+    }
+
+    .list ul a {
+
+        padding-left: 22px !important;
+
+    }
+
+    .navbar-brand {
+        margin-left: 30px;
+    }
+
+    .btn-res {
+
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 7% !important;
+        height: 22px !important;
+        margin-right: 30px !important;
+    }
+
+
+    .navbar-tab-all ul {
+
+        margin-left: 0px !important;
+    }
+
+    .slider{
+        width: 100%;
+        height: auto;
+    }
+    /* .slider img{
+        width: 100%;
+        height: 200px;
+    } */
+
+
+}
