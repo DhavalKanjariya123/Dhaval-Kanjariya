@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $(".para").hide(4000)
+            });
+            $("#show").click(function(){
+                $(".para").show(4000)
+            });
+            $("#toggle").click(function(){
+                $(".para").toggle(4000)
+            })
+        })
+    </script>
+    <style>
+        .para{
+            width: 100%;
+            height: 80px;
+            background-color: aqua;
+        }
+        #hide{
+            position: absolute;
+            top: 100px;
+        }
+        #show{
+            position: absolute;
+            top: 100px;
+            left: 70px
+        }
+        #toggle{
+            position: absolute;
+            top: 100px;
+            left: 140px
+        }
+    </style>
+</head>
+<body>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quas enim, ad maxime nemo molestias! r sit amet, consectetur adipisicing elit. Dicta quas enim, ad maxime nemo molestias! Magnam cupiditate at quod aspernatur facilis ut magni repellat, porro, qui voluptate non ips r sit amet, consectetur adipisicing elit. Dicta quas enim, ad maxime nemo molestias! Magnam cupiditate at quod aspernatur facilis ut magni repellat, porro, qui voluptate non ips r sit amet, consectetur adipisicing elit. Dicta quas enim, ad maxime nemo molestias! Magnam cupiditate at quod aspernatur facilis ut magni repellat, porro, qui voluptate non ips Magnam cupiditate at quod aspernatur facilis ut magni repellat, porro, qui voluptate non ipsam ad!</p>
+
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="toggle">Toggle</button>
+</body>
+</html>

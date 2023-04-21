@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $(".login").slideToggle(2000)
+            })
+        })
+    </script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        h1, p, ul, p{
+            margin: 0;
+            padding: 0;
+        }
+        #navbar{
+            width: 100%;
+            height: 60px;
+            background-color: black;
+        }
+        #navbar ul li{
+           padding-top: 20px;
+          padding-left: 20px;
+            color: white !important;
+        }
+        #navbar ul li a{
+         color: white !important;
+     }
+     #login-form{
+        width: 50%;
+        height: auto;
+        margin: auto;
+        margin-top: 30px;
+        background-color: blue;
+        color: white;
+        padding: 20px;
+        display: none;
+     }
+    </style>
+    
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#" id="btn">Log in</a></li>
+        </ul>
+    </nav>
+    <div class="login" id="login-form">
+        <h2>Log in Form</h2>
+        <p class="para">Lorem ipsum dolng elit. Dicta quas enim, ad maxime nemo molestias! Magnam cupiditate at quod aspernatur facilis ut magni repellat, porro, qui voluptate non ips Magnam cupiditate at quod aspernatur facilis ut magni repellat, porro, qui voluptate non ipsam ad!</p>
+    </div>
+    
+
+    
+</body>
+</html>
