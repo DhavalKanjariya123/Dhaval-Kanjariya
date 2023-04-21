@@ -1,0 +1,16 @@
+@keyframes Dhaval {
+    from {
+        background-color: red;
+        color: black;
+    }
+
+    to {
+        background-color: green;
+        color: yellow;
+    }
+}
+
+body {
+    -webkit-animation: 4s infinite Dhaval;
+    animation-delay: 4s;
+}

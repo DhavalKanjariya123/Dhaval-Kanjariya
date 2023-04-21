@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: grey;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+
+    background-color: blue;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.header label {
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.header input {
+    width: 30%;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 700px;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    /* margin: 0;
+    padding: 0;
+    top: 0; */
+    background-color: black;
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.logo a {
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.navbar li {
+    list-style-type: none;
+    padding-top: 7px;
+    margin-left: 650px;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+
+}
+
+#slider {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    padding: 0%;
+    margin-top: 5%;
+
+}
+
+#slider img {
+    width: 100%;
+    height: 500px;
+
+
+}
+
+#team h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    border: 4px solid;
+    margin: auto;
+
+}
+
+#team {
+    width: 90%;
+    margin-left: 70px;
+}
+#team img{
+    margin-top: 50px;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+#footer h6{
+    color: white;
+    margin-left: 200px;
+    padding-top: 50px;
+    font-size: 20px;
+}

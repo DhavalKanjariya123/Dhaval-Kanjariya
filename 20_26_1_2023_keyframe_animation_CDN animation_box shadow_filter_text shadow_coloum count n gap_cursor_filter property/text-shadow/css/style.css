@@ -1,0 +1,41 @@
+@keyframes Dhk {
+    0%
+    {
+        
+        background: url(../images/image_1.jpg) no-repeat;
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+    }
+    50%{
+        background: url(../images/image_2.jpg) no-repeat;
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+    }
+    100%{
+        background: url(../images/image_3.jpg) no-repeat;
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+    }
+}
+
+body{
+    -webkit-animation: 10s infinite Dhk;
+}
+.introduction{
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    -webkit-animation: 2s infinite pulse;
+    text-shadow: 2px 2px red;
+}
+
+.main{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    background-color: beige;
+    -webkit-animation: 2s alternate slideInLeft;
+}

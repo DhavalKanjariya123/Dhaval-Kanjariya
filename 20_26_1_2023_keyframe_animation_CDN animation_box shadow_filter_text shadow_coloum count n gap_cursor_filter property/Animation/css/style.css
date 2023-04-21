@@ -1,0 +1,27 @@
+@keyframes Dhk {
+    0%
+    {  
+        background: url(../images/image_1.jpg) no-repeat;
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+    }
+    50%{
+        background: url(../images/image_2.jpg) no-repeat;
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+    }
+    100%{
+        background: url(../images/image_3.jpg) no-repeat;
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+    }
+}
+body{
+    -webkit-animation: 10s infinite Dhk;
+}
+.main{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    background-color: beige;
+}
