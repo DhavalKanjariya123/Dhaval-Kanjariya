@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: wheat;
+    font-family: 'Noto Sans', sans-serif;
+}
+div{
+    background-color: brown;
+    padding: 10px;
+    text-align: justify;
+}

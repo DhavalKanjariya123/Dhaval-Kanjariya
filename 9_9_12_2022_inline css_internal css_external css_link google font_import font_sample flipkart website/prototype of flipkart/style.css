@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f3f6;
+
+}
+
+.flipkart-header{
+    width: 100%;
+    height: 60px;
+    background-color: #2874f0;
+}
+
+.flipkart-navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+}
+.flipkart-slider{
+    width: 100%;
+    height: 290px;
+    background-image: url(image/New\ Project.png);
+    margin-top: 1%;
+    margin-left: 0.8%;
+    background-repeat: no-repeat;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+}
+.flipkart-product1{
+    width: 80%;
+    background-color: #ffffff;
+    margin-left: 1%;
+}
+.flipkart-adb{
+    width: 18%;
+    height: 250px;
+    background-color: #ffffff;
+    margin-left: 1%;
+}
+.flipkart-product2{
+    width: 100%;
+    height: 250px;
+    background-color: #ffffff;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.flipkart-product3{
+    width: 100%;
+    height: 250px;
+    background-color: #ffffff;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.flipkart-product4{
+    width: 100%;
+    height: 250px;
+    background-color: #ffffff;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.flipkart-footer{
+    width: 100%;
+    height: 350px;
+    background-color: #172337;
+    margin-top: 1%;
+    
+}
