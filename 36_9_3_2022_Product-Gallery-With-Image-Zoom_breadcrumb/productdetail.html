@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+
+    <!-- zoom start here -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/demo.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <!-- xzoom plugin here -->
+    <script type="text/javascript" src="dist/xzoom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/xzoom.css" media="all" />
+    <!-- hammer plugin here -->
+    <script type="text/javascript" src="hammer.js/1.0.5/jquery.hammer.min.js"></script>
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link type="text/css" rel="stylesheet" media="all" href="fancybox/source/jquery.fancybox.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="magnific-popup/css/magnific-popup.css" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="magnific-popup/js/magnific-popup.js"></script>
+
+    <style>
+        .dropdown-menu {
+            min-width: 110px;
+        }
+
+        .img-fluid {
+            margin-left: 450px !important;
+            margin-top: 100px !important;
+        }
+
+        .btn1 {
+            margin-left: 460px !important;
+        }
+
+        .dhk {
+            width: 220px;
+            height: 150px;
+        }
+
+        .img1 {
+            width: 220px;
+            height: 150px;
+        }
+
+        .mysty {
+            /* display: inline-block !important; */
+            /* background-color: black; */
+            width: 354px;
+            margin-left: -5px !important;
+            float: left !important;
+            /* margin-left: 0 !important; */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-2">
+        <div class="container-fluid">
+
+            <div class="col-6 navbar-brand">
+                <h3 class="text-primary fs-4">VATASLIYA INFOTECH</h3>
+            </div>
+
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#list"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="col-6 collapse navbar-collapse" id="list">
+                <ul class="navbar-nav pb-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="product.html">Products</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggler active" data-bs-toggle="dropdown" href="#">SERVICES</a>
+                        <ul class="dropdown-menu bg-light border-0">
+                            <li>
+                                <a class="dropdown-item" href="#">Front End</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Back End</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link active" href="#">CONTACT US</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggler active" data-bs-toggle="dropdown" href="#">ACCOUNT</a>
+                        <ul class="dropdown-menu bg-light border-0">
+                            <li>
+                                <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#frm" href="#">Log
+                                    In</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Log Out</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link active" href="#"><b class="bi bi-cart" data-bs-toggle="modal"
+                                data-bs-target="#cart"><span
+                                    class="budge bg-dark text-white rounded-pill ps-2 pe-2 position-absolute translate-middle">1</span></b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+        aria-label="breadcrumb">
+        <ol class="breadcrumb m-5">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Product</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Product Details:</li>
+        </ol>
+    </nav>
+
+
+    <section class="container">
+        <h1 class="fs-2 text-primary text-center mt-4">All Products</h1>
+        <hr class="border border-2 border-primary w-25 m-auto">
+        <div class="row justify-content-around mt-5">
+            <div class="col-md-6 bg-light shadow float-start" style="height: 300px;">
+                <!-- <span class=""><img class="w-50 ms-4" src="Images/product/2b.webp" alt=""></span> -->
+                <!-- default start -->
+                <section id="default" class="padding-top0">
+                    <div class="row">
+
+                        <div class="large-12 column">
+                            <div class="xzoom-container dhk">
+                                <span> <img class="xzoom img1" id="xzoom-default" src="images/product/2a.webp"
+                                        xoriginal="images/product/2.webp"></span>
+
+
+                                <div class="xzoom-thumbs mt-3 mysty">
+                                    <a href="images/product/2.webp"><img class="xzoom-gallery" width="80"
+                                            src="images/product/2a.webp" xpreview="images/product/2a.webp"
+                                            title="The description goes here"></a>
+                                    <a href="images/product/2b.webp"><img class="xzoom-gallery" width="80"
+                                            src="images/product/2bb.webp" title="The description goes here"></a>
+                                    <a href="images/product/3c.webp"><img class="xzoom-gallery" width="80"
+                                            src="images/product/3cc.webp" title="The description goes here"></a>
+                                    <a href="images/product/5f.webp"><img class="xzoom-gallery" width="80" height="40"
+                                            src="images/product/5ff.webp" title="The description goes here"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="large-7 column"></div>
+                    </div>
+                </section>
+
+            </div>
+            <div class="col-md-6 bg-light shadow float-start">
+                <h3 class="text-success fs-4 fw-bold">Samsung TV (8008M)</h3>
+                <p>R.S.<del>25000</del> <span class="text-success fw-bold">20000</span> </p>
+                <ul class="ps-3">
+                    <li>Samsung 24 inch full HD</li>
+                    <li>Brightness 250mts</li>
+                    <li>HDMI portal-1</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- log in start -->
+    <div class="modal fade mt-5" role="dialog" id="frm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="row">
+                    <form action="" class="bg-dark">
+                        <span class="bg-danger text-white fs-4 ps-2 pe-2 float-end mt-1"
+                            data-bs-dismiss="modal">X</span>
+                        <h2 class="text-white my-3 mb-4">Log In Form</h2>
+                        <input class="form-control my-4" type="email" placeholder="Email Address">
+                        <input class="form-control my-4" type="password" placeholder="Password">
+                        <button type="button" class="btn btn-md btn-danger rounded-pill fs-5 px-3 mb-3">Log in</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- cart start -->
+    <div class="modal fade" id="cart" role="dialog">
+        <div class="modal-dialog ms-5 mt-5">
+            <div class="modal-content bg-white" style="width: 1250px; height: 500px;">
+                <img class="img-fluid m-5 w-25" src="Images/d438a32e-765a-4d8b-b4a6-520b560971e8.webp" alt=""> <br>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#frm" data-bs-dismiss="modal"
+                    class="btn btn-sm btn-danger rounded-pill mb-3 w-25 btn1">Log in</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/setup.js"></script>
+</body>
+
+</html>
